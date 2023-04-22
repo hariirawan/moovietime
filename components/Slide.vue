@@ -1,15 +1,15 @@
 <template>
   <div class="min-w-[540px] h-[364px] mx-[33px]">
     <div class="flex flex-row">
-      <img src="/images/space-sweepers.png" class="w-[243px]" />
+      <img :src="props.image" class="w-[243px]" />
       <div
         class="my-[20px] bg-black flex flex-col justify-center text-white p-[24px] space-y-[11px]"
       >
         <div class="space-x-[5px] flex flex-row items-center">
           <img src="/icons/Star.png" class="h-[16.21px] w-[16.21px]" />
-          <span class="font-bold text-lg">7.3</span>
+          <span class="font-bold text-lg">{{ props.rating }}</span>
         </div>
-        <h3 class="font-medium text-xl">Space Sweepers</h3>
+        <h3 class="font-medium text-xl">{{ props.name }}</h3>
         <div class="flex flex-row items-center space-x-[5px]">
           <span>2021</span>
           <div class="w-[6px] h-[6px] rounded-full bg-slate-400"></div>
@@ -25,3 +25,12 @@
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+const props = defineProps({
+  name:String,
+  image:String,
+  year:String,
+  rating:String
+});
+</script>

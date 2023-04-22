@@ -7,8 +7,8 @@
       class="space-x-6"
 
     >
-      <swiper-slide v-for="(item, index) in list" :key="index">
-        <slide/>
+      <swiper-slide v-for="(item, index) in data" :key="index">
+        <slide :name="item.name" :image="item.image" :rating="item.rating" :year="item.year"/>
       </swiper-slide>
     </swiper>
   </div>
@@ -19,7 +19,7 @@
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 
-const list = new Array(9);
+const {data} = useListMovies();
 
 const onSwiper = (swiper: any) => {
   console.log(swiper);

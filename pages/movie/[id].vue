@@ -3,7 +3,7 @@
     <img src="/images/bg-detail.png" class="absolute top-0 left-0 right-0 z-0" />
     <div class="relative">
       <div class="relative max-w-7xl mx-auto mt-[186px] flex mb-[30px]">
-        <img src="/images/wonder-woman.png" class="absolute w-[220px] z-50" />
+        <img src="/images/wonder-woman.png" class="absolute w-[220px] z-40" />
         <div class="pl-[255px] pt-[17px] text-white">
           <span class="text-sm font-medium">2020</span>
           <h3 class="font-bold text-4xl">Wonder Woman 1984</h3>

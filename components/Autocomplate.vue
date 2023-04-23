@@ -38,11 +38,13 @@ import {
 } from "@headlessui/vue";
 
 const people = [
-  "Durward Reynolds",
-  "Kenton Towne",
-  "Therese Wunsch",
-  "Benedict Kessler",
-  "Katelyn Rohan",
+  "Wonder Woman 1984",
+  "Wonder Woman",
+  "Wonder",
+  "Wonder Woman",
+  "Wonder Woman: Bloodlines",
+  "Wonder Park",
+  "Wonder Boys",
 ];
 const selectedPerson = ref("");
 const query = ref("");

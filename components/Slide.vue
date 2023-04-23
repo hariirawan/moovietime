@@ -1,7 +1,7 @@
 <template>
   <div class="min-w-[540px] h-[364px] mx-[33px]">
     <div class="flex flex-row">
-      <img :src="props.image" class="w-[243px]" />
+      <img :src="props.image" class="w-40 xl:w-[243px]" />
       <div
         class="my-[20px] bg-black flex flex-col justify-center text-white p-[24px] space-y-[11px]"
       >
